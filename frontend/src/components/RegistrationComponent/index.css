@@ -1,0 +1,53 @@
+*{
+    font-family: "roboto";
+}
+
+.background-container{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.form-card{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+}
+.input{
+    height:35px;
+    width:100%;
+    border-radius:10px;
+    margin:10px;
+    padding-left:10px;
+    font-size:20px; 
+}
+.label{
+    font-size:20px;
+}
+.company-name{
+    text-align:center;
+    font-size:45px;
+}
+.register-btn{
+    height:35px;
+    width:150px;
+    background-color:#047dd9;
+    border-radius:10px;
+    border:none;
+    color:#ffffff;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.errMsg{
+    color:#c9041e;
+    font-size:20px;
+    text-align:center;
+}
