@@ -5,7 +5,7 @@ const cors = require("cors");
 const registrationRoute = require("./router/resgistrationRoute");
 const loginRoute=require("./router/loginRoute")
 const app = express();
-
+console.log("check");
 app.use(express.json());
 app.use(cors()); 
 
